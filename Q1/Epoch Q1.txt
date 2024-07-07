@@ -9,3 +9,9 @@ However, both the two methods yielded unsatisfactory results:-
 Elbow plot had an elbow point at k=2 which on visual inspection is simply wrong
 Silhouette score had its highest value at k=2, which again is wrong, so although both methods pointed to the same result, I chose another method, that of visual inspection
 On visual inspection, k=17 seemed to be as good as it gets for the sweet spot in appearance, the reason for which have been detailed in another file and whose image with different clusters encircled is also a part of the folder
+
+
+
+I referred to several websites like javatpoint, geeksforgeeks, analyticsvidya and medium articles to both understand the algorithm as well as how the value of K was figured out
+I watched youtube tutorials such as the one provided in the PS doc, and others to understand the working of matplotlib and geopandas
+The shapefile was downloaded from https://www.indiaremotesensing.com/2017/01/download-india-shapefile-with-official.html
