@@ -13,3 +13,8 @@ I then implemented the naive Bayes algorithm at its simplest and tried it on all
 My updated model used a function that allowed for very minor spelling mistakes on words with length > 4 characters but the implementation was poor and yielding wrong results
 My 'Updated' model though was successful and gave more correct results than the simple Naive Bayes method, hence being my preferred method for sentiment analysis in the end
 
+
+I refered to many youtube tutorials to understand generating the OCR, as I didn't understand how to convert the neuralnine model to apply to alphabets until finally I figured it out, I also initially attempted pytorch as I've heard of how PyTorch is better to learn than TensorFlow but it wasn't working on my laptop and with time ticking, I chose to learn the TensorFlow method instead of troubleshoot
+I used the jurafsky chapter 4 to understand Naive Bayes while also watching a couple of videos to help me understand the math behind it more
+The rest of the work such as troubleshooting the poor accuracy on target_images was done on my own by viewing plots of the letters to help understand why it could be working so poorly
+
