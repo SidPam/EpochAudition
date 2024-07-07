@@ -1,0 +1,11 @@
+Epoch Q1
+
+
+I first worked on filtering the dataset, I looked for any entries with State.isna and as that returned a False, I used the 'StateName' column to pick out all Karnataka entries
+I then found that some entries have bogus coordinates placing them in the Arctic ocean, so I roughly selected those coordinates that can reasonably fit within Karnataka
+I added a column with all coordinate information as floats for easier processing
+I then defined the functions to help execute the K-Means Clustering algorithm, the function would also return the centroids and clusters of the current algorithm, variance for making the elbow plot and silhouette score, both for determining the optimal value of k
+However, both the two methods yielded unsatisfactory results:-
+Elbow plot had an elbow point at k=2 which on visual inspection is simply wrong
+Silhouette score had its highest value at k=2, which again is wrong, so although both methods pointed to the same result, I chose another method, that of visual inspection
+On visual inspection, k=17 seemed to be as good as it gets for the sweet spot in appearance, the reason for which have been detailed in another file and whose image with different clusters encircled is also a part of the folder
