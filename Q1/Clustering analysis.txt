@@ -1,0 +1,12 @@
+Clustering analysis
+
+To do the analysis of the clustering, I first looked at the format of the dataset
+It very closely resembled that of post offices, which also have a system of Circles
+However I could not find that many post office details in Karnataka
+I looked into both Division as well as District but both have simply too many unique entried which cannot be distinguished by the clustering algorithm
+The value of k=17 was picked on visual inspection as lower values seemed to have independent zones within them that were detached from the centroid region
+Rainfall maps also didn't match the possible clusters, and nor did election constituencies
+But from the clustering results on the map, we can see that top and bottom of the state are missing points, as well as white spaces interspersed across other districts
+While there are no clear trends, I can note that the top right, bottom right and bottom left are the most populated zones on the map, followed by a central belt
+However on inspection and plenty of google searches, I could unfortunately find no matching criteria to identify what exactly these clusters depict
+
