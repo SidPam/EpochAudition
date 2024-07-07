@@ -1,5 +1,5 @@
 # Epoch
  Repo for Epoch selection
 
-Q1 does not contain the clustering data
-Q2 does not contain csv files nor training images
+The Q1 folder does not contain the clustering data\
+The Q2 folder does not contain csv files nor training images
